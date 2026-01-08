@@ -66,19 +66,37 @@
   </div>
 
 </div> -->
-
+<!-- 
 <div id="header" class="w-full grid gap-6">
 
   <h1 class="text-4xl font-bold">My Hobbies</h1>
 
   <p class="w-[70%] text-right">by Chess Mess</p>
 
-  <div class="Mypic w-48 h-48 overflow-hidden border">
+  <div class="Mypic w-30 h-30 overflow-hidden border">
     <img 
-      src="FRomCruise.jpeg" 
+      src="CruiseCut.jpg" 
       alt="Myself"
-      class="w-full h-full object-cover"
+      class="rounded-img w-full h-full object-cover"
     >
+  </div>
+
+</div> -->
+<div id="header" class="w-full grid grid-cols-[auto_1fr] gap-6 items-center">
+
+  <!-- Image -->
+  <div class="w-48 h-48 overflow-hidden border self-start">
+    <img 
+      src="CruiseCut.jpg" 
+      alt="Myself"
+      class="w-full h-full object-cover rounded-lg"
+    >
+  </div>
+
+  <!-- Text block -->
+  <div class="text-center">
+    <h1 class="text-4xl font-bold">My Hobbies</h1>
+    <p class="mt-2">by Chess Mess</p>
   </div>
 
 </div>
@@ -86,11 +104,11 @@
 
 
  
-<div id="body" style="background-color: blue; width: 100%;" class="container grid grid-cols-12 gap-14 w-max w-full">
+<!-- <div id="body" style="background-color: blue; width: 100%;" class="container grid grid-cols-12 gap-14 w-max w-full">
 <div id="Menu" class="col-span-3" style="background-color: aquamarine;">Menu
         <ol>
             <li>
-            <a href="About.html"> About</a>
+            <a href="AboutMe.html"> About</a>
             </li>
             <li>
             <a href="First Choices.html"> First Choices</a>
@@ -104,12 +122,41 @@
          
         </ol>
 
-
-
-
 </div>
 <div id="Text_pic" class="  col-span-9" style="background-color: blanchedalmond;">Here I Should fit an imagine and some text related to it</div>
+</div> -->
+<div id="body" class="w-full bg-blue-500">
+  <div class="grid grid-cols-12 gap-6 w-full">
+
+    <!-- LEFT MENU -->
+    <div id="Menu" class="col-span-3 bg-aquamarine p-4">
+      <ol class="space-y-4">
+        <li>
+          <a href="AboutMe.html" class="block">About</a>
+        </li>
+        <li>
+          <a href="First Choices.html" class="block">First Choices</a>
+        </li>
+        <li>
+          <a href="Second Choices.html" class="block">Second Choices</a>
+        </li>
+        <li>
+          <a href="Contact.html" class="block">Contact</a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div
+      id="Text_pic"
+      class="col-span-9 bg-blanchedalmond p-6 w-full"
+    >
+      Here I should fit an image and some text related to it
+    </div>
+
+  </div>
 </div>
+
 
 <div id="footer" class="w-full grid">
     
