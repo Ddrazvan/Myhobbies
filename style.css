@@ -1,0 +1,18 @@
+#footer {
+  display: flex;
+  gap: 16px;           /* space between images */
+  align-items: center;
+  justify-content: center; /* optional: center them */
+}
+
+#footer img {
+  height: 240px;        /* same height for all */
+  width: auto;
+}
+
+.Mypic{ 
+
+    width: 250px; height: 100px; flex-wrap: wrap; 
+}
+#Menu {height: 400px;
+}
