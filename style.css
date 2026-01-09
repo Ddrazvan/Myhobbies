@@ -9,6 +9,7 @@
   height: 240px;        
   width: auto;
 }
+
 /* 
 .Mypic{ 
 
@@ -114,8 +115,11 @@ grid-template-rows: 120px minmax(400px, auto) 80px;
 .header  { grid-area: header; }
 .menu    { grid-area: menu; }
 .content { grid-area: content; }
-.sidebar { grid-area: sidebar; }
+.sidebar { grid-area: sidebar;background-color: whitesmoke; justify-content: center;}
 .footer  { grid-area: footer; }
+
+
+.TextColor {forced-color-adjust: white;}
 
 
 /* #Menu {height: 400px;
